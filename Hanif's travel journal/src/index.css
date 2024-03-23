@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  width: 51%;
+  margin: 0 auto 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-info {
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 8px;
+}
+
+.card-stats {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+
+.rating,
+.location {
+  font-size: 25px;
+  color: #666;
+}
